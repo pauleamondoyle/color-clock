@@ -58,7 +58,7 @@ getMinDisplay = function(){
 }
 
 var getHexNum = function(){ 	
- 	var intVal = getMinDisplay()*279513 - getSecondsDisplay()*2;
+ 	var intVal = getMinDisplay()*279513 - getSecondsDisplay()*8;
  	hexValue = intVal.toString(16).toUpperCase()
  	return hexValue
 }
